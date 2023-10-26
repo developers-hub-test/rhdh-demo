@@ -19,12 +19,12 @@ Follow these steps to start your sandbox instance and deploy your Angular app:
 
 7.  Choose a Resource Type field, please choose either Deployment or Serverless Deployment (default option) depending on your preference.
     
-8.  Select **Target Port** under Advanced options to define the port that will receive the container's traffic.
+8.  Select **Target Port** under Advanced options to define the port 8080 that will receive the container's traffic.
    
 9.  Click on Create.
     
 10.  You will now be directed to the Topology view, and the application will commence deployment. Please allow some time for the build & deployment process to complete. While it is in progress, you will have the opportunity to monitor the logs.
     
-11.  Once it’s done deploying, you can click on the ↗ OpenURL icon to see the webpage of your Angular application running on OpenShift.
+11.  Once it’s done deploying, you can click on the **↗** OpenURL icon to see the webpage of your Angular application running on OpenShift.
 
 In this tutorial, you learned how to deploy an Angular application on Red Hat OpenShift. Red Hat OpenShift has powerful features that make it easy to manage and scale your Angular application in production.
