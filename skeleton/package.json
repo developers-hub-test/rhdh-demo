@@ -1,5 +1,5 @@
 {
-  "name": "hello-world-app",
+  "name": "${{values.component_id}}",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

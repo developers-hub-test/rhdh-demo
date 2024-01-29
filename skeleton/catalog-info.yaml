@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ${{values.component_id | dump}}
+  {%- if values.description %}
+  description: ${{values.description | dump}}
+  {%- endif %}
+  annotations:
+    github.com/project-slug: ${{values.destination.owner + "/" + values.destination.repo}}
+    backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://workspaces.openshift.com/#https://github.com/${{values.destination.owner}}/${{values.destination.repo}}
+      title: OpenShift Dev Spaces (VS Code)
+      icon: web
+
+spec:
+  type: website
+  lifecycle: experimental
+  owner: ${{values.owner | dump}}
