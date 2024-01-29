@@ -1,11 +1,11 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: create-react-app-template
-  title: Create React App Template
+  name: angular-app-template
+  title: angular App Template
   description: Create a new CRA website project
   tags:
-    - react
+    - angular
     - nagesh
 spec:
   owner: narathod@redhat.com
