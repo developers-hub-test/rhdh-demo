@@ -2,7 +2,7 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: angular-app-template
-  title: angular App Template
+  title: Angular App Template
   description: Create a new CRA website project
   tags:
     - angular
